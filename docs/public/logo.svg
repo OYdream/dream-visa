@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Dream Visa logo：青色地球 + 白色航线 -->
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14b8a6"/>
+      <stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+  </defs>
+  <circle cx="32" cy="32" r="28" fill="url(#g)"/>
+  <!-- 经线 -->
+  <ellipse cx="32" cy="32" rx="12" ry="28" fill="none" stroke="rgba(255,255,255,.55)" stroke-width="2"/>
+  <!-- 纬线 -->
+  <line x1="5" y1="32" x2="59" y2="32" stroke="rgba(255,255,255,.55)" stroke-width="2"/>
+  <path d="M8 21 Q32 29 56 21" fill="none" stroke="rgba(255,255,255,.4)" stroke-width="1.6"/>
+  <path d="M8 43 Q32 35 56 43" fill="none" stroke="rgba(255,255,255,.4)" stroke-width="1.6"/>
+  <!-- 航线：起点 → 弧线 → 飞机 -->
+  <path d="M14 46 Q30 12 48 20" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-dasharray="1 6"/>
+  <circle cx="14" cy="46" r="3.2" fill="#fff"/>
+  <circle cx="48" cy="20" r="3.2" fill="#fff"/>
+  <path d="M48 20 l9 -3 -6 6 -1 4 -2-4 z" fill="#f59e0b"/>
+</svg>
